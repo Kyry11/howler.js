@@ -1,4 +1,11 @@
-**NOTE:** Work is currently ongoing in the 2.0 branch. No ETA for release as of yet, but the core is fairly stable and is already under heavy production use. [Click here to view the 2.0 beta branch](https://github.com/goldfire/howler.js/tree/2.0).
+**NOTE:** This fork has been created to add a few features that I needed in my particular implementation.
+
+This fork adds the following to the official howler.js release:
+
+* Download progress events (for determining the percentage of the song that has been downloaded).
+* Ability to access the howler global cache (to determine wheather a particular track is already in it).
+
+This fork will also address the issue in the main howler.js release with incorrect seeking behaviour (this was introduced with their latest "looping" changes).
 
 ![howler.js](http://goldfirestudios.com/proj/howlerjs/howlerjs_logo.png "howler.js")
 
